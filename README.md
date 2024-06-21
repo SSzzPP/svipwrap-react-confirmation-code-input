@@ -21,14 +21,14 @@
   <p align="center">
     React hook and component for integrating a confirmation code input into your application 
     <br />
-    <a href="https://github.com/momesana/react-confirmation-code-input/"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/SSzzPP/svipwrap-react-confirmation-code-input/"><strong>Explore the docs »</strong></a>
     <br />
     <br />
     <a href="https://stackblitz.com/edit/react-ts-ecwebf">View Demo</a>
     ·
-    <a href="https://github.com/momesana/react-confirmation-code-input/issues">Report Bug</a>
+    <a href="https://github.com/SSzzPP/svipwrap-react-confirmation-code-input/issues">Report Bug</a>
     ·
-    <a href="https://github.com/momesana/react-confirmation-code-input/issues">Request Feature</a>
+    <a href="https://github.com/SSzzPP/svipwrap-react-confirmation-code-input/issues">Request Feature</a>
   </p>
 </div>
 
@@ -310,6 +310,7 @@ The component takes the following parameters:
 | inputCls       | CSS class to be appended to the input's class names           | `string`                                             | no       |           |
 | disabled       | Whether the inputs are disabled                               | `boolean`                                            | no       |           |
 | isPassword     | Whether the inputs are of type `password`                     | `boolean`                                            | no       |           |
+| inputMode      | change the appearance of the keyboard                         | `InputMode`                                          | no       | `numeric` |
 
 <!-- LICENSE -->
 
@@ -323,21 +324,21 @@ Distributed under the MIT License. See [`LICENSE`](LICENSE) for more information
 
 ## Contact
 
-Project Link: [https://github.com/momesana/react-confirmation-code-input](https://github.com/momesana/react-confirmation-code-input/)
+Project Link: [https://github.com/SSzzPP/svipwrap-react-confirmation-code-input](https://github.com/SSzzPP/svipwrap-react-confirmation-code-input/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- MARKDOWN LINKS & IMAGES -->
 
-[contributors-shield]: https://img.shields.io/github/contributors/momesana/react-confirmation-code-input.svg?style=for-the-badge
-[contributors-url]: https://github.com/momesana/react-confirmation-code-input/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/momesana/react-confirmation-code-input.svg?style=for-the-badge
-[forks-url]: https://github.com/momesana/react-confirmation-code-input/network/members
-[stars-shield]: https://img.shields.io/github/stars/momesana/react-confirmation-code-input.svg?style=for-the-badge
-[stars-url]: https://github.com/momesana/react-confirmation-code-input/stargazers
-[issues-shield]: https://img.shields.io/github/issues/momesana/react-confirmation-code-input.svg?style=for-the-badge
-[issues-url]: https://github.com/momesana/react-confirmation-code-input/issues
-[license-shield]: https://img.shields.io/github/license/momesana/react-confirmation-code-input.svg?style=for-the-badge
-[license-url]: https://github.com/momesana/react-confirmation-code-input/blob/master/LICENSE.txt
+[contributors-shield]: https://img.shields.io/github/contributors/SSzzPP/svipwrap-react-confirmation-code-input.svg?style=for-the-badge
+[contributors-url]: https://github.com/SSzzPP/svipwrap-react-confirmation-code-input/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/SSzzPP/svipwrap-react-confirmation-code-input.svg?style=for-the-badge
+[forks-url]: https://github.com/SSzzPP/svipwrap-react-confirmation-code-input/network/members
+[stars-shield]: https://img.shields.io/github/stars/SSzzPP/svipwrap-react-confirmation-code-input.svg?style=for-the-badge
+[stars-url]: https://github.com/SSzzPP/svipwrap-react-confirmation-code-input/stargazers
+[issues-shield]: https://img.shields.io/github/issues/SSzzPP/svipwrap-react-confirmation-code-input.svg?style=for-the-badge
+[issues-url]: https://github.com/SSzzPP/svipwrap-react-confirmation-code-input/issues
+[license-shield]: https://img.shields.io/github/license/SSzzPP/svipwrap-react-confirmation-code-input.svg?style=for-the-badge
+[license-url]: https://github.com/SSzzPP/svipwrap-react-confirmation-code-input/blob/master/LICENSE.txt
 [React.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
 [React-url]: https://reactjs.org/

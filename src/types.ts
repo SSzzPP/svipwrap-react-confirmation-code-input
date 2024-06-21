@@ -13,6 +13,16 @@ export type AllowedPattern =
   | RegExp
   | ((input: string, index: number, value: string[]) => boolean);
 
+export type InputMode =
+  | "none"
+  | "text"
+  | "tel"
+  | "url"
+  | "email"
+  | "numeric"
+  | "decimal"
+  | "search";
+
 export interface UseConfirmationCodeInputProps {
   allowedPattern?: AllowedPattern;
   autoFocus?: boolean;

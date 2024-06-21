@@ -1,6 +1,6 @@
 import type { ForwardedRef } from "react";
 import { forwardRef, useImperativeHandle } from "react";
-import type { UseConfirmationCodeInputProps } from "./types";
+import type { UseConfirmationCodeInputProps, InputMode } from "./types";
 import { useConfirmationCodeInput } from "./useConfirmationCodeInput";
 import "./ConfirmationCodeInput.css";
 
@@ -15,6 +15,7 @@ type Props = Omit<UseConfirmationCodeInputProps, "useValueHook"> & {
   inputCls?: string;
   disabled?: boolean;
   isPassword?: boolean;
+  inputMode?: InputMode;
 };
 
 export default forwardRef(function ConfirmationCodeInput(
@@ -22,6 +23,7 @@ export default forwardRef(function ConfirmationCodeInput(
     containerCls = "",
     inputCls = "",
     isPassword,
+    inputMode,
     disabled,
     ...hookProps
   }: Props,
@@ -51,6 +53,7 @@ export default forwardRef(function ConfirmationCodeInput(
           value={inputValues[index]}
           key={index}
           ref={ref}
+          inputMode={inputMode} // change the appearance of the keyboard
           {...inputProps}
         />
       ))}

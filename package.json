@@ -1,6 +1,6 @@
 {
-  "name": "react-confirmation-code-input",
-  "version": "0.2.0",
+  "name": "@svipwrap/react-confirmation-code-input",
+  "version": "0.2.3",
   "description": "",
   "main": "./lib/index.js",
   "module": "./es/index.js",
@@ -21,11 +21,11 @@
     "commit-lint": "pnpm commitlint --from=$(git rev-list \"origin/${GITHUB_BASE_REF}\"..HEAD | sed '1!d')~1"
   },
   "bugs": {
-    "url": "https://github.com/momesana/react-confirmation-code-input/issues"
+    "url": "https://github.com/SSzzPP/svipwrap-react-confirmation-code-input/issues"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/momesana/react-confirmation-code-input"
+    "url": "https://github.com/SSzzPP/svipwrap-react-confirmation-code-input"
   },
   "keywords": [
     "react",
@@ -37,7 +37,10 @@
     "confirmation-code",
     "ui"
   ],
-  "author": "Mohammad Mehdi Salem Naraghi",
+  "publishConfig": {
+    "access": "public"
+  },
+  "author": "SSzzPP",
   "license": "MIT",
   "types": "./es/index.d.ts",
   "devDependencies": {

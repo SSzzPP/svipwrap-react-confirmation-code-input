@@ -25,6 +25,7 @@ export const Numeric: Story = Template.bind({});
 Numeric.args = {
   length: 5,
   allowedPattern: "numeric",
+  inputMode: "numeric",
 };
 
 export const Alpha: Story = Template.bind({});
